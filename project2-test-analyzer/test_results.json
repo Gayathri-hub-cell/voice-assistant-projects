@@ -1,0 +1,16 @@
+{
+    "test_run": "MBUX Voice Assistant - Test Run 001",
+    "date": "2026-04-08",
+    "results": [
+      {"test_id": "TC001", "command": "Turn on AC", "expected": "climate_control", "actual": "climate_control", "status": "PASS"},
+      {"test_id": "TC002", "command": "Play jazz music", "expected": "media_control", "actual": "media_control", "status": "PASS"},
+      {"test_id": "TC003", "command": "Navigate to airport", "expected": "navigation", "actual": "general_query", "status": "FAIL"},
+      {"test_id": "TC004", "command": "Call mom", "expected": "phone_call", "actual": "phone_call", "status": "PASS"},
+      {"test_id": "TC005", "command": "Set temperature to 22", "expected": "climate_control", "actual": "media_control", "status": "FAIL"},
+      {"test_id": "TC006", "command": "Skip this song", "expected": "media_control", "actual": "media_control", "status": "PASS"},
+      {"test_id": "TC007", "command": "Call John", "expected": "phone_call", "actual": "phone_call", "status": "PASS"},
+      {"test_id": "TC008", "command": "What is the weather", "expected": "general_query", "actual": "general_query", "status": "PASS"},
+      {"test_id": "TC009", "command": "Take me home", "expected": "navigation", "actual": "navigation", "status": "PASS"},
+      {"test_id": "TC010", "command": "Turn off heating", "expected": "climate_control", "actual": "phone_call", "status": "FAIL"}
+    ]
+  }
