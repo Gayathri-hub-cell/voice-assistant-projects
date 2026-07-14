@@ -22,7 +22,7 @@ Reads JSON test results, identifies failures, and uses an LLM to generate root-c
 
 ## ▶️ How to Run
 
-1. Clone the repo: `git clone https://github.com/Gayathri-hub-cell/voice-assistant-projects.git`
+1. Clone the repo: `git clone https://github.com/Gayathri-hub-cell/llm-projects.git`
 
 2. Install the Groq client: `pip install groq`
 
